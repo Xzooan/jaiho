@@ -1,0 +1,19 @@
+x1=int(input("Enter first x-axis number:"))
+print(x1)
+y1=int(input("Enter first y-axis number:"))
+print(y1)
+print("------------------------")
+x2=int(input("Enter second x-axis number:"))
+print(x2)
+y2=int(input("Enter second y-axis number:"))
+print(y2)
+print("------------------------")
+a=(x2-x1)**2
+b=(y2-y1)**2
+c=(a+b)**1/2
+print("First point is:",(x1,y1))
+print("Second point is:",(x2,y2))
+print("Distance between two points is d=((x2-x1)**2+(y2-y1)**2)**1/2")
+print("========================")
+print("The distance between the point is :",c)
+print("========================")
